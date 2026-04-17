@@ -10,6 +10,10 @@ class CarsController < ApplicationController
   def show
   end
 
+  def about
+    
+  end
+
   # GET /cars/new
   def new
     @car = Car.new
